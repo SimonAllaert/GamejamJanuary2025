@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_guimtarguy",
-    "path":"sprites/spr_guimtarguy/spr_guimtarguy.yy",
+    "name":"spr_guimtarguy_idle_left",
+    "path":"sprites/spr_guimtarguy_idle_left/spr_guimtarguy_idle_left.yy",
   },
   "spriteMaskId":null,
   "visible":true,

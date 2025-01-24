@@ -5,5 +5,5 @@ if (point_distance(x, y, mouse_x, mouse_y) <= movespeed) {
 }
 else {
 	move_towards_point(mouse_x, mouse_y, movespeed);
-	image_angle = point_direction(x,y, mouse_x, mouse_y) + 90;
+	image_angle = point_direction(x,y, mouse_x, mouse_y) + 100;
 }
