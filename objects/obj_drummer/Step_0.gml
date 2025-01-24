@@ -13,6 +13,7 @@ switch state {
 		image_index = 1;
 		if (stick == noone) {
 			stick = instance_create_depth(x, y, -10, obj_drummer_stick);
+			stick.damage = 15;
 		}
 		attack_cd++;
 		if (attack_cd > attack_speed) {
