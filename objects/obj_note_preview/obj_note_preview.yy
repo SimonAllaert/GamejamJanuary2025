@@ -1,17 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_note",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_note_preview",
+  "eventList":[],
   "managed":true,
-  "name":"obj_note",
+  "name":"obj_note_preview",
   "overriddenProperties":[],
   "parent":{
-    "name":"Character",
-    "path":"folders/Character.yy",
+    "name":"How_to_play",
+    "path":"folders/Rooms/How_to_play.yy",
   },
   "parentObjectId":null,
   "persistent":false,

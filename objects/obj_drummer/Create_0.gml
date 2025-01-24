@@ -1,4 +1,4 @@
-movespeed = 2;
+movespeed = 4;
 hitpoints_max = 100;
 hitpoints_current = 100;
 range = 160;

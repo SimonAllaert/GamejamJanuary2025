@@ -1,26 +1,28 @@
 {
   "$GMRoom":"v1",
-  "%Name":"rm_main_menu",
+  "%Name":"rm_how_to_play",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_3F10CB5A","path":"rooms/rm_main_menu/rm_main_menu.yy",},
-    {"name":"inst_431D7266","path":"rooms/rm_main_menu/rm_main_menu.yy",},
+    {"name":"inst_1365EAA","path":"rooms/rm_how_to_play/rm_how_to_play.yy",},
+    {"name":"inst_3B0A0E1F","path":"rooms/rm_how_to_play/rm_how_to_play.yy",},
+    {"name":"inst_4B44C40F","path":"rooms/rm_how_to_play/rm_how_to_play.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_3F10CB5A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3F10CB5A","objectId":{"name":"obj_button_play","path":"objects/obj_button_play/obj_button_play.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0,"scaleY":4.0,"x":160.0,"y":608.0,},
-        {"$GMRInstance":"v1","%Name":"inst_431D7266","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_431D7266","objectId":{"name":"obj_button_help","path":"objects/obj_button_help/obj_button_help.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":8.0,"scaleY":4.0,"x":928.0,"y":608.0,},
+        {"$GMRInstance":"v1","%Name":"inst_1365EAA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1365EAA","objectId":{"name":"obj_button_back","path":"objects/obj_button_back/obj_button_back.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":4.0,"x":192.0,"y":608.0,},
+        {"$GMRInstance":"v1","%Name":"inst_3B0A0E1F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3B0A0E1F","objectId":{"name":"obj_guimtarguy_preview","path":"objects/obj_guimtarguy_preview/obj_guimtarguy_preview.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":864.0,"y":128.0,},
+        {"$GMRInstance":"v1","%Name":"inst_4B44C40F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4B44C40F","objectId":{"name":"obj_note_preview","path":"objects/obj_note_preview/obj_note_preview.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":864.0,"y":320.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"rm_main_menu",
+  "name":"rm_how_to_play",
   "parent":{
-    "name":"Main menu",
-    "path":"folders/Rooms/Main menu.yy",
+    "name":"How_to_play",
+    "path":"folders/Rooms/How_to_play.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

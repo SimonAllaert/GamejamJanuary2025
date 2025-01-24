@@ -8,9 +8,6 @@ else {
 	image_angle = point_direction(x,y, mouse_x, mouse_y) + 100;
 }
 
-
-damage_counter++
-if (damage_counter > 60) {
+if (image_index == 6) {
 	self.deal_damage();
-	damage_counter = 0;
 }
