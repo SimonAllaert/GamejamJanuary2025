@@ -1,5 +1,6 @@
 movespeed = 2;
-hitpoints = 1000;
+hitpoints_max = 100;
+hitpoints_current = 100;
 range = 160;
 damage = 15;
 attack_speed = 70;
@@ -9,3 +10,10 @@ target = instance_find(obj_guimtarguy, 0);
 stick = noone;
 
 image_speed = 0;
+
+function take_damage(_damage) {
+	hitpoints_current -= _damage;
+	if (hitpoints_current <= 0) {
+		instance_destroy(self);
+	}
+}
