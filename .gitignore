@@ -58,6 +58,3 @@ Temporary Items
 *.resource_order
 *.old
 
-# .YY extension files
-*.yy
-*.YY
