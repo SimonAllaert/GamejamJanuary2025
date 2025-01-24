@@ -43,6 +43,7 @@
   },
   "name":"GamejamJanuari2025",
   "resources":[
+    {"id":{"name":"font_health","path":"fonts/font_health/font_health.yy",},},
     {"id":{"name":"font_menu","path":"fonts/font_menu/font_menu.yy",},},
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},
     {"id":{"name":"obj_button_play","path":"objects/obj_button_play/obj_button_play.yy",},},
