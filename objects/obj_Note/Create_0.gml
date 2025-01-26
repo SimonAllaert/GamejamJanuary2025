@@ -3,6 +3,7 @@ damage = 60;
 damage_range = 16;
 crit_chance = 0;
 crit_modifier = 2;
+state = "PLAYING"
 
 
 function deal_damage() {

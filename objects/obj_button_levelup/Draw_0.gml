@@ -1,0 +1,11 @@
+draw_self();
+image_xscale = 5;
+image_yscale = 10;
+draw_sprite_ext(sprite, 0, x, y-50, 2, 2, 0, c_white, 1);
+draw_set_font(font_powerup_name);
+draw_set_color(c_black);
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
+draw_text(x, y+30, name);
+draw_set_font(font_powerup_description);
+draw_text(x, y+70, description);
