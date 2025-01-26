@@ -20,6 +20,7 @@ function activate_power() {
 	default: 
 		break;
 	}
+	guimtarguy.complete_level_up();
 }
 
 function activate_power_chords() {
